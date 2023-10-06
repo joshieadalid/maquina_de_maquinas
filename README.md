@@ -1,12 +1,12 @@
 # maquina_de_maquinas
-Traductor de NFA a FSM
-Autómata Generador para Palabras Clave
+## Traductor de NFA a FSM
+### Autómata Generador para Palabras Clave
 
 Este repositorio contiene herramientas para generar y convertir Autómatas Finitos No Deterministas (NFA) a partir de un conjunto de palabras clave. A diferencia de métodos manuales, este enfoque automatizado permite generar autómatas de manera eficiente y precisa para un conjunto amplio de palabras clave.
 Herramientas incluidas:
 
-    Generador de NFA a partir de Palabras Clave: Toma un archivo con palabras clave y genera un NFA que reconoce esas palabras clave.
-    Conversor de NFA a DFA: Dado un NFA en formato específico, genera una tabla de transición para su correspondiente Autómata Finito Determinista (DFA).
+Generador de NFA a partir de Palabras Clave: Toma un archivo con palabras clave y genera un NFA que reconoce esas palabras clave.
+Conversor de NFA a DFA: Dado un NFA en formato específico, genera una tabla de transición para su correspondiente Autómata Finito Determinista (DFA).
 
 Cómo usar:
 1. Generador de NFA:
@@ -14,23 +14,20 @@ Cómo usar:
     Coloque sus palabras clave en un archivo llamado keywords.txt, con una palabra clave por línea.
     Ejecute el script de generación:
 
-    bash
-```
+```bash
     python keywords_nfa_generator.py
 ```
-    El script leerá el archivo 'keywords.txt' y generará un archivo 'nfa.txt' con la definición del NFA para las palabras clave, legible para el script 'reader.py'.
+ El script leerá el archivo 'keywords.txt' y generará un archivo 'nfa.txt' con la definición del NFA para las palabras clave, legible para el script 'reader.py'.
 
 2. Conversor de NFA a DFA ('reader.py'):
 
     Asegúrese de tener un archivo 'nfa.txt' con la definición de su NFA (ya sea generado o creado manualmente).
     Ejecute el script de conversión:
-
-    bash
-```
+   
+```bash
     python reader.py
 ```
-    El script mostrará la tabla de transición del DFA correspondiente en la consola.
-
+El script mostrará la tabla de transición del DFA correspondiente en la consola.
 ## Formato del archivo nfa.txt:
 
 El archivo debe seguir el siguiente formato:
