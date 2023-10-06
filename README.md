@@ -43,7 +43,7 @@ F = {conjunto de estados finales}
 q0 = estado_inicial
 estado_origen -> estado_destino : símbolo
 
-Por ejemplo:
+Por ejemplo, al igual que en la definición del NFA, usamos los símbolos para definir el alfabeto, el conjunto de estados, finales, y función de transición en notación de nodos.
 txt
 ```
 Σ = {a, b}
