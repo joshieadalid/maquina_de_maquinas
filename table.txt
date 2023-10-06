@@ -1,0 +1,332 @@
+/home/joshieadalid/.nix-profile/bin/python /home/joshieadalid/Documents/Semestre_2024-1/TC/Automata_translator/reader.py 
+Processing line: 'Σ = {P, _, a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, v, w, x, y, z}'
+Processing line: 'Q = {q0, q_a, q_au, q_aut, q_auto, q_e, q_el, q_els, q_else, q_l, q_lo, q_lon, q_long, q_s, q_sw, q_swi, q_swit, q_switc, q_switch, q_b, q_br, q_bre, q_brea, q_break, q_en, q_enu, q_enum, q_r, q_re, q_reg, q_regi, q_regis, q_regist, q_registe, q_register, q_t, q_ty, q_typ, q_type, q_typed, q_typede, q_typedef, q_c, q_ca, q_cas, q_case, q_ex, q_ext, q_exte, q_exter, q_extern, q_ret, q_retu, q_retur, q_return, q_u, q_un, q_uni, q_unio, q_union, q_ch, q_cha, q_char, q_f, q_fl, q_flo, q_floa, q_float, q_sh, q_sho, q_shor, q_short, q_uns, q_unsi, q_unsig, q_unsign, q_unsigne, q_unsigned, q_co, q_con, q_cons, q_const, q_fo, q_for, q_si, q_sig, q_sign, q_signe, q_signed, q_v, q_vo, q_voi, q_void, q_cont, q_conti, q_contin, q_continu, q_continue, q_g, q_go, q_got, q_goto, q_siz, q_size, q_sizeo, q_sizeof, q_vol, q_vola, q_volat, q_volati, q_volatil, q_volatile, q_d, q_de, q_def, q_defa, q_defau, q_defaul, q_default, q_i, q_if, q_st, q_sta, q_stat, q_stati, q_static, q_w, q_wh, q_whi, q_whil, q_while, q_do, q_in, q_int, q_str, q_stru, q_struc, q_struct, q__, q__P, q__Pa, q__Pac, q__Pack, q__Packe, q__Packed, q_dou, q_doub, q_doubl, q_double}'
+Processing line: 'F = {q_auto, q_else, q_long, q_switch, q_break, q_enum, q_register, q_typedef, q_case, q_extern, q_return, q_union, q_char, q_float, q_short, q_unsigned, q_const, q_for, q_signed, q_void, q_continue, q_goto, q_sizeof, q_volatile, q_default, q_if, q_static, q_while, q_do, q_int, q_struct, q__Packed, q_double}'
+Processing line: 'q0 = q0'
+Processing line: 'q0 -> q_a : a'
+Processing line: 'q_a -> q_au : u'
+Processing line: 'q_au -> q_aut : t'
+Processing line: 'q_aut -> q_auto : o'
+Processing line: 'q0 -> q_e : e'
+Processing line: 'q_e -> q_el : l'
+Processing line: 'q_el -> q_els : s'
+Processing line: 'q_els -> q_else : e'
+Processing line: 'q0 -> q_l : l'
+Processing line: 'q_l -> q_lo : o'
+Processing line: 'q_lo -> q_lon : n'
+Processing line: 'q_lon -> q_long : g'
+Processing line: 'q0 -> q_s : s'
+Processing line: 'q_s -> q_sw : w'
+Processing line: 'q_sw -> q_swi : i'
+Processing line: 'q_swi -> q_swit : t'
+Processing line: 'q_swit -> q_switc : c'
+Processing line: 'q_switc -> q_switch : h'
+Processing line: 'q0 -> q_b : b'
+Processing line: 'q_b -> q_br : r'
+Processing line: 'q_br -> q_bre : e'
+Processing line: 'q_bre -> q_brea : a'
+Processing line: 'q_brea -> q_break : k'
+Processing line: 'q0 -> q_e : e'
+Processing line: 'q_e -> q_en : n'
+Processing line: 'q_en -> q_enu : u'
+Processing line: 'q_enu -> q_enum : m'
+Processing line: 'q0 -> q_r : r'
+Processing line: 'q_r -> q_re : e'
+Processing line: 'q_re -> q_reg : g'
+Processing line: 'q_reg -> q_regi : i'
+Processing line: 'q_regi -> q_regis : s'
+Processing line: 'q_regis -> q_regist : t'
+Processing line: 'q_regist -> q_registe : e'
+Processing line: 'q_registe -> q_register : r'
+Processing line: 'q0 -> q_t : t'
+Processing line: 'q_t -> q_ty : y'
+Processing line: 'q_ty -> q_typ : p'
+Processing line: 'q_typ -> q_type : e'
+Processing line: 'q_type -> q_typed : d'
+Processing line: 'q_typed -> q_typede : e'
+Processing line: 'q_typede -> q_typedef : f'
+Processing line: 'q0 -> q_c : c'
+Processing line: 'q_c -> q_ca : a'
+Processing line: 'q_ca -> q_cas : s'
+Processing line: 'q_cas -> q_case : e'
+Processing line: 'q0 -> q_e : e'
+Processing line: 'q_e -> q_ex : x'
+Processing line: 'q_ex -> q_ext : t'
+Processing line: 'q_ext -> q_exte : e'
+Processing line: 'q_exte -> q_exter : r'
+Processing line: 'q_exter -> q_extern : n'
+Processing line: 'q0 -> q_r : r'
+Processing line: 'q_r -> q_re : e'
+Processing line: 'q_re -> q_ret : t'
+Processing line: 'q_ret -> q_retu : u'
+Processing line: 'q_retu -> q_retur : r'
+Processing line: 'q_retur -> q_return : n'
+Processing line: 'q0 -> q_u : u'
+Processing line: 'q_u -> q_un : n'
+Processing line: 'q_un -> q_uni : i'
+Processing line: 'q_uni -> q_unio : o'
+Processing line: 'q_unio -> q_union : n'
+Processing line: 'q0 -> q_c : c'
+Processing line: 'q_c -> q_ch : h'
+Processing line: 'q_ch -> q_cha : a'
+Processing line: 'q_cha -> q_char : r'
+Processing line: 'q0 -> q_f : f'
+Processing line: 'q_f -> q_fl : l'
+Processing line: 'q_fl -> q_flo : o'
+Processing line: 'q_flo -> q_floa : a'
+Processing line: 'q_floa -> q_float : t'
+Processing line: 'q0 -> q_s : s'
+Processing line: 'q_s -> q_sh : h'
+Processing line: 'q_sh -> q_sho : o'
+Processing line: 'q_sho -> q_shor : r'
+Processing line: 'q_shor -> q_short : t'
+Processing line: 'q0 -> q_u : u'
+Processing line: 'q_u -> q_un : n'
+Processing line: 'q_un -> q_uns : s'
+Processing line: 'q_uns -> q_unsi : i'
+Processing line: 'q_unsi -> q_unsig : g'
+Processing line: 'q_unsig -> q_unsign : n'
+Processing line: 'q_unsign -> q_unsigne : e'
+Processing line: 'q_unsigne -> q_unsigned : d'
+Processing line: 'q0 -> q_c : c'
+Processing line: 'q_c -> q_co : o'
+Processing line: 'q_co -> q_con : n'
+Processing line: 'q_con -> q_cons : s'
+Processing line: 'q_cons -> q_const : t'
+Processing line: 'q0 -> q_f : f'
+Processing line: 'q_f -> q_fo : o'
+Processing line: 'q_fo -> q_for : r'
+Processing line: 'q0 -> q_s : s'
+Processing line: 'q_s -> q_si : i'
+Processing line: 'q_si -> q_sig : g'
+Processing line: 'q_sig -> q_sign : n'
+Processing line: 'q_sign -> q_signe : e'
+Processing line: 'q_signe -> q_signed : d'
+Processing line: 'q0 -> q_v : v'
+Processing line: 'q_v -> q_vo : o'
+Processing line: 'q_vo -> q_voi : i'
+Processing line: 'q_voi -> q_void : d'
+Processing line: 'q0 -> q_c : c'
+Processing line: 'q_c -> q_co : o'
+Processing line: 'q_co -> q_con : n'
+Processing line: 'q_con -> q_cont : t'
+Processing line: 'q_cont -> q_conti : i'
+Processing line: 'q_conti -> q_contin : n'
+Processing line: 'q_contin -> q_continu : u'
+Processing line: 'q_continu -> q_continue : e'
+Processing line: 'q0 -> q_g : g'
+Processing line: 'q_g -> q_go : o'
+Processing line: 'q_go -> q_got : t'
+Processing line: 'q_got -> q_goto : o'
+Processing line: 'q0 -> q_s : s'
+Processing line: 'q_s -> q_si : i'
+Processing line: 'q_si -> q_siz : z'
+Processing line: 'q_siz -> q_size : e'
+Processing line: 'q_size -> q_sizeo : o'
+Processing line: 'q_sizeo -> q_sizeof : f'
+Processing line: 'q0 -> q_v : v'
+Processing line: 'q_v -> q_vo : o'
+Processing line: 'q_vo -> q_vol : l'
+Processing line: 'q_vol -> q_vola : a'
+Processing line: 'q_vola -> q_volat : t'
+Processing line: 'q_volat -> q_volati : i'
+Processing line: 'q_volati -> q_volatil : l'
+Processing line: 'q_volatil -> q_volatile : e'
+Processing line: 'q0 -> q_d : d'
+Processing line: 'q_d -> q_de : e'
+Processing line: 'q_de -> q_def : f'
+Processing line: 'q_def -> q_defa : a'
+Processing line: 'q_defa -> q_defau : u'
+Processing line: 'q_defau -> q_defaul : l'
+Processing line: 'q_defaul -> q_default : t'
+Processing line: 'q0 -> q_i : i'
+Processing line: 'q_i -> q_if : f'
+Processing line: 'q0 -> q_s : s'
+Processing line: 'q_s -> q_st : t'
+Processing line: 'q_st -> q_sta : a'
+Processing line: 'q_sta -> q_stat : t'
+Processing line: 'q_stat -> q_stati : i'
+Processing line: 'q_stati -> q_static : c'
+Processing line: 'q0 -> q_w : w'
+Processing line: 'q_w -> q_wh : h'
+Processing line: 'q_wh -> q_whi : i'
+Processing line: 'q_whi -> q_whil : l'
+Processing line: 'q_whil -> q_while : e'
+Processing line: 'q0 -> q_d : d'
+Processing line: 'q_d -> q_do : o'
+Processing line: 'q0 -> q_i : i'
+Processing line: 'q_i -> q_in : n'
+Processing line: 'q_in -> q_int : t'
+Processing line: 'q0 -> q_s : s'
+Processing line: 'q_s -> q_st : t'
+Processing line: 'q_st -> q_str : r'
+Processing line: 'q_str -> q_stru : u'
+Processing line: 'q_stru -> q_struc : c'
+Processing line: 'q_struc -> q_struct : t'
+Processing line: 'q0 -> q__ : _'
+Processing line: 'q__ -> q__P : P'
+Processing line: 'q__P -> q__Pa : a'
+Processing line: 'q__Pa -> q__Pac : c'
+Processing line: 'q__Pac -> q__Pack : k'
+Processing line: 'q__Pack -> q__Packe : e'
+Processing line: 'q__Packe -> q__Packed : d'
+Processing line: 'q0 -> q_d : d'
+Processing line: 'q_d -> q_do : o'
+Processing line: 'q_do -> q_dou : u'
+Processing line: 'q_dou -> q_doub : b'
+Processing line: 'q_doub -> q_doubl : l'
+Processing line: 'q_doubl -> q_double : e'
+{'Σ': {'v', 'k', 'p', 'o', 'w', 'r', 'f', 'b', 't', 'x', 'i', 's', 'm', 'a', 'n', 'd', 'P', 'z', 'y', 'l', 'u', '_', 'e', 'g', 'c', 'h'}, 'Q': {'q_typede', 'q_long', 'q_size', 'q_b', 'q_si', 'q_signe', 'q_continue', 'q_vol', 'q_vo', 'q_d', 'q_switch', 'q_enu', 'q_go', 'q_cons', 'q_aut', 'q_if', 'q_got', 'q_wh', 'q__', 'q_defau', 'q_brea', 'q_sw', 'q_typ', 'q__Packe', 'q_regis', 'q_vola', 'q_el', 'q_struct', 'q_stru', 'q__Pac', 'q_for', 'q_extern', 'q_exte', 'q_cont', 'q_doubl', 'q_a', 'q_sign', 'q_whi', 'q_ca', 'q_in', 'q_en', 'q_str', 'q_unio', 'q_voi', 'q_def', 'q_enum', 'q_doub', 'q_lo', 'q_sig', 'q_sta', 'q_type', 'q_uns', 'q_sho', 'q_typedef', 'q_bre', 'q_registe', 'q_volat', 'q_ty', 'q__Pack', 'q_unsigned', 'q_con', 'q_case', 'q_fl', 'q_do', 'q_flo', 'q_t', 'q_br', 'q_defaul', 'q_typed', 'q_e', 'q_volati', 'q_w', 'q_void', 'q_i', 'q_static', 'q_r', 'q_l', 'q_volatil', 'q_regi', 'q_volatile', 'q_regist', 'q_continu', 'q_double', 'q_int', 'q__Pa', 'q_contin', 'q_struc', 'q_cas', 'q_ch', 'q0', 'q_un', 'q_return', 'q_fo', 'q_g', 'q_reg', 'q_u', 'q_retur', 'q_floa', 'q_break', 'q_swi', 'q_f', 'q_register', 'q_unsigne', 'q_siz', 'q_dou', 'q_s', 'q_while', 'q_lon', 'q_signed', 'q_const', 'q_retu', 'q_sizeof', 'q_st', 'q_ex', 'q_uni', 'q_co', 'q_shor', 'q_v', 'q_whil', 'q_exter', 'q__P', 'q_else', 'q_defa', 'q_els', 'q_short', 'q_de', 'q_ext', 'q_c', 'q_unsign', 'q_sizeo', 'q_union', 'q_conti', 'q_stat', 'q_auto', 'q_ret', 'q_switc', 'q_re', 'q_cha', 'q_float', 'q_swit', 'q_au', 'q_default', 'q__Packed', 'q_char', 'q_unsi', 'q_goto', 'q_stati', 'q_unsig', 'q_sh'}, 'F': {'q_long', 'q_else', 'q_volatile', 'q_enum', 'q_double', 'q_continue', 'q_int', 'q_short', 'q_switch', 'q_typedef', 'q_return', 'q_if', 'q_unsigned', 'q_case', 'q_break', 'q_do', 'q_union', 'q_register', 'q_auto', 'q_struct', 'q_float', 'q_while', 'q_for', 'q_signed', 'q_extern', 'q_const', 'q_char', 'q_default', 'q__Packed', 'q_void', 'q_sizeof', 'q_static', 'q_goto'}, 'δ': {'q0': {'a': {'q_a'}, 'e': {'q_e'}, 'l': {'q_l'}, 's': {'q_s'}, 'b': {'q_b'}, 'r': {'q_r'}, 't': {'q_t'}, 'c': {'q_c'}, 'u': {'q_u'}, 'f': {'q_f'}, 'v': {'q_v'}, 'g': {'q_g'}, 'd': {'q_d'}, 'i': {'q_i'}, 'w': {'q_w'}, '_': {'q__'}}, 'q_a': {'u': {'q_au'}}, 'q_au': {'t': {'q_aut'}}, 'q_aut': {'o': {'q_auto'}}, 'q_e': {'l': {'q_el'}, 'n': {'q_en'}, 'x': {'q_ex'}}, 'q_el': {'s': {'q_els'}}, 'q_els': {'e': {'q_else'}}, 'q_l': {'o': {'q_lo'}}, 'q_lo': {'n': {'q_lon'}}, 'q_lon': {'g': {'q_long'}}, 'q_s': {'w': {'q_sw'}, 'h': {'q_sh'}, 'i': {'q_si'}, 't': {'q_st'}}, 'q_sw': {'i': {'q_swi'}}, 'q_swi': {'t': {'q_swit'}}, 'q_swit': {'c': {'q_switc'}}, 'q_switc': {'h': {'q_switch'}}, 'q_b': {'r': {'q_br'}}, 'q_br': {'e': {'q_bre'}}, 'q_bre': {'a': {'q_brea'}}, 'q_brea': {'k': {'q_break'}}, 'q_en': {'u': {'q_enu'}}, 'q_enu': {'m': {'q_enum'}}, 'q_r': {'e': {'q_re'}}, 'q_re': {'g': {'q_reg'}, 't': {'q_ret'}}, 'q_reg': {'i': {'q_regi'}}, 'q_regi': {'s': {'q_regis'}}, 'q_regis': {'t': {'q_regist'}}, 'q_regist': {'e': {'q_registe'}}, 'q_registe': {'r': {'q_register'}}, 'q_t': {'y': {'q_ty'}}, 'q_ty': {'p': {'q_typ'}}, 'q_typ': {'e': {'q_type'}}, 'q_type': {'d': {'q_typed'}}, 'q_typed': {'e': {'q_typede'}}, 'q_typede': {'f': {'q_typedef'}}, 'q_c': {'a': {'q_ca'}, 'h': {'q_ch'}, 'o': {'q_co'}}, 'q_ca': {'s': {'q_cas'}}, 'q_cas': {'e': {'q_case'}}, 'q_ex': {'t': {'q_ext'}}, 'q_ext': {'e': {'q_exte'}}, 'q_exte': {'r': {'q_exter'}}, 'q_exter': {'n': {'q_extern'}}, 'q_ret': {'u': {'q_retu'}}, 'q_retu': {'r': {'q_retur'}}, 'q_retur': {'n': {'q_return'}}, 'q_u': {'n': {'q_un'}}, 'q_un': {'i': {'q_uni'}, 's': {'q_uns'}}, 'q_uni': {'o': {'q_unio'}}, 'q_unio': {'n': {'q_union'}}, 'q_ch': {'a': {'q_cha'}}, 'q_cha': {'r': {'q_char'}}, 'q_f': {'l': {'q_fl'}, 'o': {'q_fo'}}, 'q_fl': {'o': {'q_flo'}}, 'q_flo': {'a': {'q_floa'}}, 'q_floa': {'t': {'q_float'}}, 'q_sh': {'o': {'q_sho'}}, 'q_sho': {'r': {'q_shor'}}, 'q_shor': {'t': {'q_short'}}, 'q_uns': {'i': {'q_unsi'}}, 'q_unsi': {'g': {'q_unsig'}}, 'q_unsig': {'n': {'q_unsign'}}, 'q_unsign': {'e': {'q_unsigne'}}, 'q_unsigne': {'d': {'q_unsigned'}}, 'q_co': {'n': {'q_con'}}, 'q_con': {'s': {'q_cons'}, 't': {'q_cont'}}, 'q_cons': {'t': {'q_const'}}, 'q_fo': {'r': {'q_for'}}, 'q_si': {'g': {'q_sig'}, 'z': {'q_siz'}}, 'q_sig': {'n': {'q_sign'}}, 'q_sign': {'e': {'q_signe'}}, 'q_signe': {'d': {'q_signed'}}, 'q_v': {'o': {'q_vo'}}, 'q_vo': {'i': {'q_voi'}, 'l': {'q_vol'}}, 'q_voi': {'d': {'q_void'}}, 'q_cont': {'i': {'q_conti'}}, 'q_conti': {'n': {'q_contin'}}, 'q_contin': {'u': {'q_continu'}}, 'q_continu': {'e': {'q_continue'}}, 'q_g': {'o': {'q_go'}}, 'q_go': {'t': {'q_got'}}, 'q_got': {'o': {'q_goto'}}, 'q_siz': {'e': {'q_size'}}, 'q_size': {'o': {'q_sizeo'}}, 'q_sizeo': {'f': {'q_sizeof'}}, 'q_vol': {'a': {'q_vola'}}, 'q_vola': {'t': {'q_volat'}}, 'q_volat': {'i': {'q_volati'}}, 'q_volati': {'l': {'q_volatil'}}, 'q_volatil': {'e': {'q_volatile'}}, 'q_d': {'e': {'q_de'}, 'o': {'q_do'}}, 'q_de': {'f': {'q_def'}}, 'q_def': {'a': {'q_defa'}}, 'q_defa': {'u': {'q_defau'}}, 'q_defau': {'l': {'q_defaul'}}, 'q_defaul': {'t': {'q_default'}}, 'q_i': {'f': {'q_if'}, 'n': {'q_in'}}, 'q_st': {'a': {'q_sta'}, 'r': {'q_str'}}, 'q_sta': {'t': {'q_stat'}}, 'q_stat': {'i': {'q_stati'}}, 'q_stati': {'c': {'q_static'}}, 'q_w': {'h': {'q_wh'}}, 'q_wh': {'i': {'q_whi'}}, 'q_whi': {'l': {'q_whil'}}, 'q_whil': {'e': {'q_while'}}, 'q_in': {'t': {'q_int'}}, 'q_str': {'u': {'q_stru'}}, 'q_stru': {'c': {'q_struc'}}, 'q_struc': {'t': {'q_struct'}}, 'q__': {'P': {'q__P'}}, 'q__P': {'a': {'q__Pa'}}, 'q__Pa': {'c': {'q__Pac'}}, 'q__Pac': {'k': {'q__Pack'}}, 'q__Pack': {'e': {'q__Packe'}}, 'q__Packe': {'d': {'q__Packed'}}, 'q_do': {'u': {'q_dou'}}, 'q_dou': {'b': {'q_doub'}}, 'q_doub': {'l': {'q_doubl'}}, 'q_doubl': {'e': {'q_double'}}}, 'q0': 'q0'}
+Estados        v       k           p         o           w        r              f             b          t             x        i            s           m          a          n            d              P        z         y        l             u             _       e              g           c            h           
+{'q0'}         {'q_v'} set()       set()     set()       {'q_w'}  {'q_r'}        {'q_f'}       {'q_b'}    {'q_t'}       set()    {'q_i'}      {'q_s'}     set()      {'q_a'}    set()        {'q_d'}        set()    set()     set()    {'q_l'}       {'q_u'}       {'q__'} {'q_e'}        {'q_g'}     {'q_c'}      set()       
+{'q_v'}        set()   set()       set()     {'q_vo'}    set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+set()          set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_w'}        set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        {'q_wh'}    
+{'q_r'}        set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_re'}       set()       set()        set()       
+{'q_f'}        set()   set()       set()     {'q_fo'}    set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    {'q_fl'}      set()         set()   set()          set()       set()        set()       
+{'q_b'}        set()   set()       set()     set()       set()    {'q_br'}       set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_t'}        set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     {'q_ty'} set()         set()         set()   set()          set()       set()        set()       
+{'q_i'}        set()   set()       set()     set()       set()    set()          {'q_if'}      set()      set()         set()    set()        set()       set()      set()      {'q_in'}     set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_s'}        set()   set()       set()     set()       {'q_sw'} set()          set()         set()      {'q_st'}      set()    {'q_si'}     set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        {'q_sh'}    
+{'q_a'}        set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         {'q_au'}      set()   set()          set()       set()        set()       
+{'q_d'}        set()   set()       set()     {'q_do'}    set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_de'}       set()       set()        set()       
+{'q_l'}        set()   set()       set()     {'q_lo'}    set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_u'}        set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_un'}     set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q__'}        set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          {'q__P'} set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_e'}        set()   set()       set()     set()       set()    set()          set()         set()      set()         {'q_ex'} set()        set()       set()      set()      {'q_en'}     set()          set()    set()     set()    {'q_el'}      set()         set()   set()          set()       set()        set()       
+{'q_g'}        set()   set()       set()     {'q_go'}    set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_c'}        set()   set()       set()     {'q_co'}    set()    set()          set()         set()      set()         set()    set()        set()       set()      {'q_ca'}   set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        {'q_ch'}    
+{'q_vo'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_voi'}    set()       set()      set()      set()        set()          set()    set()     set()    {'q_vol'}     set()         set()   set()          set()       set()        set()       
+{'q_wh'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_whi'}    set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_re'}       set()   set()       set()     set()       set()    set()          set()         set()      {'q_ret'}     set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          {'q_reg'}   set()        set()       
+{'q_fo'}       set()   set()       set()     set()       set()    {'q_for'}      set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_fl'}       set()   set()       set()     {'q_flo'}   set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_br'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_bre'}      set()       set()        set()       
+{'q_ty'}       set()   set()       {'q_typ'} set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_if'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_in'}       set()   set()       set()     set()       set()    set()          set()         set()      {'q_int'}     set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_sw'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_swi'}    set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_st'}       set()   set()       set()     set()       set()    {'q_str'}      set()         set()      set()         set()    set()        set()       set()      {'q_sta'}  set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_si'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    {'q_siz'} set()    set()         set()         set()   set()          {'q_sig'}   set()        set()       
+{'q_sh'}       set()   set()       set()     {'q_sho'}   set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_au'}       set()   set()       set()     set()       set()    set()          set()         set()      {'q_aut'}     set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_do'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         {'q_dou'}     set()   set()          set()       set()        set()       
+{'q_de'}       set()   set()       set()     set()       set()    set()          {'q_def'}     set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_lo'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_lon'}    set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_un'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_uni'}    {'q_uns'}   set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q__P'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      {'q__Pa'}  set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_ex'}       set()   set()       set()     set()       set()    set()          set()         set()      {'q_ext'}     set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_en'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         {'q_enu'}     set()   set()          set()       set()        set()       
+{'q_el'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        {'q_els'}   set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_go'}       set()   set()       set()     set()       set()    set()          set()         set()      {'q_got'}     set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_co'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_con'}    set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_ca'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        {'q_cas'}   set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_ch'}       set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      {'q_cha'}  set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_voi'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        {'q_void'}     set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_vol'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      {'q_vola'} set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_whi'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    {'q_whil'}    set()         set()   set()          set()       set()        set()       
+{'q_ret'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         {'q_retu'}    set()   set()          set()       set()        set()       
+{'q_reg'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_regi'}   set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_for'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_flo'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      {'q_floa'} set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_bre'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      {'q_brea'} set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_typ'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_type'}     set()       set()        set()       
+{'q_int'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_swi'}      set()   set()       set()     set()       set()    set()          set()         set()      {'q_swit'}    set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_str'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         {'q_stru'}    set()   set()          set()       set()        set()       
+{'q_sta'}      set()   set()       set()     set()       set()    set()          set()         set()      {'q_stat'}    set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_siz'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_size'}     set()       set()        set()       
+{'q_sig'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_sign'}   set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_sho'}      set()   set()       set()     set()       set()    {'q_shor'}     set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_aut'}      set()   set()       set()     {'q_auto'}  set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_dou'}      set()   set()       set()     set()       set()    set()          set()         {'q_doub'} set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_def'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      {'q_defa'} set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_lon'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          {'q_long'}  set()        set()       
+{'q_uni'}      set()   set()       set()     {'q_unio'}  set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_uns'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_unsi'}   set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q__Pa'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       {'q__Pac'}   set()       
+{'q_ext'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_exte'}     set()       set()        set()       
+{'q_enu'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       {'q_enum'} set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_els'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_else'}     set()       set()        set()       
+{'q_got'}      set()   set()       set()     {'q_goto'}  set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_con'}      set()   set()       set()     set()       set()    set()          set()         set()      {'q_cont'}    set()    set()        {'q_cons'}  set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_cas'}      set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_case'}     set()       set()        set()       
+{'q_cha'}      set()   set()       set()     set()       set()    {'q_char'}     set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_void'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_vola'}     set()   set()       set()     set()       set()    set()          set()         set()      {'q_volat'}   set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_whil'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_while'}    set()       set()        set()       
+{'q_retu'}     set()   set()       set()     set()       set()    {'q_retur'}    set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_regi'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        {'q_regis'} set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_floa'}     set()   set()       set()     set()       set()    set()          set()         set()      {'q_float'}   set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_brea'}     set()   {'q_break'} set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_type'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        {'q_typed'}    set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_swit'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       {'q_switc'}  set()       
+{'q_stru'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       {'q_struc'}  set()       
+{'q_stat'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_stati'}  set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_size'}     set()   set()       set()     {'q_sizeo'} set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_sign'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_signe'}    set()       set()        set()       
+{'q_shor'}     set()   set()       set()     set()       set()    set()          set()         set()      {'q_short'}   set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_auto'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_doub'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    {'q_doubl'}   set()         set()   set()          set()       set()        set()       
+{'q_defa'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         {'q_defau'}   set()   set()          set()       set()        set()       
+{'q_long'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_unio'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_union'}  set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_unsi'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          {'q_unsig'} set()        set()       
+{'q__Pac'}     set()   {'q__Pack'} set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_exte'}     set()   set()       set()     set()       set()    {'q_exter'}    set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_enum'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_else'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_goto'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_cont'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_conti'}  set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_cons'}     set()   set()       set()     set()       set()    set()          set()         set()      {'q_const'}   set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_case'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_char'}     set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_volat'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    {'q_volati'} set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_while'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_retur'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_return'} set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_regis'}    set()   set()       set()     set()       set()    set()          set()         set()      {'q_regist'}  set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_float'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_break'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_typed'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_typede'}   set()       set()        set()       
+{'q_switc'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        {'q_switch'}
+{'q_struc'}    set()   set()       set()     set()       set()    set()          set()         set()      {'q_struct'}  set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_stati'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       {'q_static'} set()       
+{'q_sizeo'}    set()   set()       set()     set()       set()    set()          {'q_sizeof'}  set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_signe'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        {'q_signed'}   set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_short'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_doubl'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_double'}   set()       set()        set()       
+{'q_defau'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    {'q_defaul'}  set()         set()   set()          set()       set()        set()       
+{'q_union'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_unsig'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_unsign'} set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q__Pack'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q__Packe'}   set()       set()        set()       
+{'q_exter'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_extern'} set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_conti'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      {'q_contin'} set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_const'}    set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_volati'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    {'q_volatil'} set()         set()   set()          set()       set()        set()       
+{'q_return'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_regist'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_registe'}  set()       set()        set()       
+{'q_typede'}   set()   set()       set()     set()       set()    set()          {'q_typedef'} set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_switch'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_struct'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_static'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_sizeof'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_signed'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_double'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_defaul'}   set()   set()       set()     set()       set()    set()          set()         set()      {'q_default'} set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_unsign'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_unsigne'}  set()       set()        set()       
+{'q__Packe'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        {'q__Packed'}  set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_extern'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_contin'}   set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         {'q_continu'} set()   set()          set()       set()        set()       
+{'q_volatil'}  set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_volatile'} set()       set()        set()       
+{'q_registe'}  set()   set()       set()     set()       set()    {'q_register'} set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_typedef'}  set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_default'}  set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_unsigne'}  set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        {'q_unsigned'} set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q__Packed'}  set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_continu'}  set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   {'q_continue'} set()       set()        set()       
+{'q_volatile'} set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_register'} set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_unsigned'} set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+{'q_continue'} set()   set()       set()     set()       set()    set()          set()         set()      set()         set()    set()        set()       set()      set()      set()        set()          set()    set()     set()    set()         set()         set()   set()          set()       set()        set()       
+
+Process finished with exit code 0
