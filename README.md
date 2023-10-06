@@ -16,13 +16,13 @@ Cómo usar:
 
     bash
 ```
-    python generate_nfa_from_keywords.py
+    python keywords_nfa_generator.py
 ```
-    El script generará un archivo nfa.txt con la definición del NFA para las palabras clave.
+    El script leerá el archivo 'keywords.txt' y generará un archivo 'nfa.txt' con la definición del NFA para las palabras clave, legible para el script 'reader.py'.
 
-2. Conversor de NFA a DFA:
+2. Conversor de NFA a DFA ('reader.py'):
 
-    Asegúrese de tener un archivo nfa.txt con la definición de su NFA (ya sea generado o creado manualmente).
+    Asegúrese de tener un archivo 'nfa.txt' con la definición de su NFA (ya sea generado o creado manualmente).
     Ejecute el script de conversión:
 
     bash
@@ -31,20 +31,18 @@ Cómo usar:
 ```
     El script mostrará la tabla de transición del DFA correspondiente en la consola.
 
-Formato del archivo nfa.txt:
+## Formato del archivo nfa.txt:
 
 El archivo debe seguir el siguiente formato:
-
-makefile
-
+```
 Σ = {alfabeto}
 Q = {conjunto de estados}
 F = {conjunto de estados finales}
 q0 = estado_inicial
 estado_origen -> estado_destino : símbolo
-
+```
 Por ejemplo, al igual que en la definición del NFA, usamos los símbolos para definir el alfabeto, el conjunto de estados, finales, y función de transición en notación de nodos.
-txt
+Ejemplo:
 ```
 Σ = {a, b}
 Q = {q0, q1, q2}
