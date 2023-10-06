@@ -44,16 +44,15 @@ q0 = estado_inicial
 estado_origen -> estado_destino : símbolo
 
 Por ejemplo:
-
-less
-
+txt
+```
 Σ = {a, b}
 Q = {q0, q1, q2}
 F = {q2}
 q0 = q0
 q0 -> q1 : a
 q1 -> q2 : b
-
+```
 Consideraciones:
 
     Asegúrese de que ninguna palabra clave sea prefijo de otra, ya que podría causar ambigüedades en la generación del NFA.
