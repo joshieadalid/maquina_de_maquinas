@@ -49,6 +49,7 @@ Un conjunto de herramientas diseñadas para facilitar la generación y conversi�
     volatile
     while
     ```
+    
 1.2. Ejecuta el generador:
 ```bash
 python keywords_nfa_generator.py
