@@ -1,36 +1,70 @@
-# maquina_de_maquinas
-## Traductor de NFA a FSM
-### Autómata Generador para Palabras Clave
+# Máquina de Máquinas: Generador y Conversor de Autómatas
 
-Este repositorio contiene herramientas para generar y convertir Autómatas Finitos No Deterministas (NFA) a partir de un conjunto de palabras clave. A diferencia de métodos manuales, este enfoque automatizado permite generar autómatas de manera eficiente y precisa para un conjunto amplio de palabras clave.
-Herramientas incluidas:
+Un conjunto de herramientas diseñadas para facilitar la generación y conversión de Autómatas Finitos No Deterministas (NFA) basados en palabras clave. Elimina la necesidad de crear NFAs manualmente y permite la creación y conversión eficiente para un amplio conjunto de palabras clave.
 
-Generador de NFA a partir de Palabras Clave: Toma un archivo con palabras clave y genera un NFA que reconoce esas palabras clave.
-Conversor de NFA a DFA: Dado un NFA en formato específico, genera una tabla de transición para su correspondiente Autómata Finito Determinista (DFA).
+## Características
 
-Cómo usar:
-1. Generador de NFA:
+- **Generador de NFA**: A partir de un archivo con palabras clave, genera un NFA que las reconoce.
+  
+- **Conversor de NFA a DFA**: Convierte un NFA dado a su correspondiente Autómata Finito Determinista (DFA) mostrando una tabla de transición.
 
-    Coloque sus palabras clave en un archivo llamado keywords.txt, con una palabra clave por línea.
-    Ejecute el script de generación:
+## Instrucciones de Uso
 
+### 1. Generación del NFA
+
+1.1. Crea un archivo llamado `keywords.txt` y lista cada palabra clave en una _línea diferente_.
+    Ejemplo:
+    ```
+    _Packed
+    auto
+    break
+    case
+    char
+    const
+    continue
+    default
+    do
+    double
+    else
+    enum
+    extern
+    float
+    for
+    goto
+    if
+    int
+    long
+    register
+    return
+    short
+    signed
+    sizeof
+    static
+    struct
+    switch
+    typedef
+    union
+    unsigned
+    void
+    volatile
+    while
+    ```
+1.2. Ejecuta el generador:
 ```bash
-    python keywords_nfa_generator.py
+python keywords_nfa_generator.py
 ```
- El script leerá el archivo 'keywords.txt' y generará un archivo 'nfa.txt' con la definición del NFA para las palabras clave, legible para el script 'reader.py'.
+Esto producirá un archivo `nfa.txt` con la definición del NFA basada en las palabras clave.
 
-2. Conversor de NFA a DFA ('reader.py'):
-
-    Asegúrese de tener un archivo 'nfa.txt' con la definición de su NFA (ya sea generado o creado manualmente).
-    Ejecute el script de conversión:
-   
+2. Conversión de NFA a DFA
+2.1. Asegúrate de contar con un archivo `nfa.txt` (ya sea generado como se indicó anteriormente o creado manualmente).
+2.2. Ejecuta el conversor:
 ```bash
-    python reader.py
+python reader.py
 ```
-El script mostrará la tabla de transición del DFA correspondiente en la consola.
-## Formato del archivo nfa.txt:
+Verás la tabla de transición del DFA en la consola.
+Formato del Archivo `nfa.txt`
 
-El archivo debe seguir el siguiente formato:
+El archivo debe respetar el siguiente formato:
 ```
 Σ = {alfabeto}
 Q = {conjunto de estados}
@@ -38,8 +72,8 @@ F = {conjunto de estados finales}
 q0 = estado_inicial
 estado_origen -> estado_destino : símbolo
 ```
-Por ejemplo, al igual que en la definición del NFA, usamos los símbolos para definir el alfabeto, el conjunto de estados, finales, y función de transición en notación de nodos.
 Ejemplo:
+
 ```
 Σ = {a, b}
 Q = {q0, q1, q2}
@@ -48,7 +82,8 @@ q0 = q0
 q0 -> q1 : a
 q1 -> q2 : b
 ```
-Consideraciones:
+Consideraciones
 
-    Asegúrese de que ninguna palabra clave sea prefijo de otra, ya que podría causar ambigüedades en la generación del NFA.
-    La herramienta está diseñada principalmente para generar NFAs a partir de palabras clave. Si bien es posible editar y adaptar el archivo nfa.txt manualmente, asegúrese de seguir el formato adecuadamente para evitar errores.
+    Prefijos: Asegúrate de que ninguna palabra clave sea prefijo de otra. Esto podría causar ambigüedades al generar el NFA.
+
+    Edición manual de `nfa.txt`: Aunque es posible, ten cuidado al editar el archivo manualmente. Asegúrate de seguir el formato adecuadamente para evitar errores en la conversión.
