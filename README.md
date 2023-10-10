@@ -27,6 +27,7 @@ loaded_nfa = load_nfa("my_nfa.json")
 Para usarse en texto hardcodeado, o del texto obtenido de la lectura de un archivo.
 
 ```python
+
 # Convertir NFA a texto
 nfa_text = nfa2text(nfa)
 print(nfa_text)
@@ -58,3 +59,41 @@ save_dfa(dfa, "my_dfa.json")
 ```python
 save_dfa2csv(dfa, "my_dfa.csv")
 ```
+### Extra: NFA en formato legible a JSON (Ejemplo 3).
+```python
+nfa_text = """
+Σ = {w, e, b, a, y}
+Q = {1, 2, 3, 4, 5, 6, 7, 8}
+F = {4, 8}
+q0 = 1
+1 -> 1 : w,e,b,a,y
+1 -> 2 : w
+1 -> 5 : e
+2 -> 3 : e
+3 -> 4 : b
+5 -> 6 : b
+6 -> 7 : a
+7 -> 8 : y
+"""
+```
+Nótese la declaración múltiple de símbolos para una misma transición.
+**Formato alternativo**
+```python
+nfa_text = """
+Σ = {e, b, y, a, w}
+Q = {3, 1, 7, 8, 4, 6, 2, 5}
+F = {8, 4}
+q0 = 1
+1 -> 1, 2 : w
+1 -> 1, 5 : e
+1 -> 1 : b
+1 -> 1 : a
+1 -> 1 : y
+2 -> 3 : e
+3 -> 4 : b
+5 -> 6 : b
+6 -> 7 : a
+7 -> 8 : y
+"""
+```
+Cabe a mencionar que el formato permite una descripción concisa con la "multitransición".
